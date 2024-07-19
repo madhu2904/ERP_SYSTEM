@@ -1,0 +1,47 @@
+body {
+    background: url('campus.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff00;
+}
+.navbar-custom img {
+    height: 35px; /* Adjust the height to match the Home icon size */
+}
+.navbar-custom .home-link {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    color: #000000; /* Change this to your desired text color */
+}
+.login-container {
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group label {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
